@@ -57,7 +57,7 @@ export default function Home() {
       <div class="nav-item">
         <a style="cursor:default;">Products <i class="ph ph-caret-down" style="font-size:12px;margin-left:5px;opacity:.5;"></i></a>
         <div class="mega-menu mega-menu-cols">
-          <a href="https://arvix.brainerslabs.com" class="mega-module">
+          <a href="https://breno.brainerslabs.com" class="mega-module">
             <div class="mega-module__content">
               <strong>Breno AI</strong>
               <span>An intelligence company brain and operating system for real-time reasoning and decision automation.</span>
@@ -572,7 +572,7 @@ window.__homeI18n = {
      ═══════════════════════════════════════════════ -->
   <section class="suite-section">
     <span class="h2-eyebrow"><svg width="10" height="12" viewBox="0 0 10 12" fill="var(--c-azul)" style="margin-right:2px;vertical-align:middle;"><polygon points="0,0 10,6 0,12"/></svg> Core Products</span>
-    <h2>Solutions we are developing</h2>
+    <h2>Our Products</h2>
     <div class="suite-cards">
 
       <!-- SVG S-paths behind cards -->
@@ -602,7 +602,7 @@ window.__homeI18n = {
         <div class="suite-card__icon">
           <i class="ph ph-brain"></i>
         </div>
-        <h3 class="suite-card__title">Breno AI</h3>
+        <h3 class="suite-card__title">Breno AI <span style="display:inline-block;background:#5B3AF5;color:#fff;font-size:11px;font-weight:600;padding:4px 8px;border-radius:4px;margin-left:8px;letter-spacing:-0.33px;">PRIVATE BETA</span></h3>
         <p>An intelligence company brain and operating system. Process dynamic data models, execute real-time reasoning workflows, and monitor active sync nodes.</p>
         <div style="margin-top:8px;margin-bottom:16px;">
           <a href="javascript:void(0)" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
@@ -858,7 +858,7 @@ window.__homeI18n = {
         <div class="suite-card__icon">
           <i class="ph ph-student"></i>
         </div>
-        <h3 class="suite-card__title">iSchool</h3>
+        <h3 class="suite-card__title">iSchool <span style="display:inline-block;background:#2563EB;color:#fff;font-size:11px;font-weight:600;padding:4px 8px;border-radius:4px;margin-left:8px;letter-spacing:-0.33px;">BETA</span></h3>
         <p>A smart school management system. Automate attendance with biometric check-ins, track academic progress, and connect parents, teachers, and administration.</p>
         <div style="margin-top:8px;margin-bottom:16px;">
           <a href="javascript:void(0)" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
@@ -1503,7 +1503,7 @@ window.__homeI18n = {
     // Case study carousel
     const caseStudies = [
       { vertical: 'ArchyClouds', description: 'An architectural firm website with HR portal. Fully built as a NestJS application.', video: 'archyclouds', url: 'https://archyclouds.com' },
-      { vertical: 'Arvix', description: 'Our own product: an intelligent assistant for professionals and enterprises, built with Go and Neo4j.', video: 'arvix', url: 'https://arvix.brainerslabs.com' },
+      { vertical: 'Breno AI', description: 'Our own product: an intelligent assistant for professionals and enterprises. A persistent intelligence system with real-time reasoning capabilities.', video: 'arvix', url: 'https://breno.brainerslabs.com' },
       { vertical: 'Atlantic Ways Advisory', description: 'A corporate website for a consultation firm.', video: 'atlanticways', url: 'https://atlanticwaysadvisory.com' }
     ];
 
