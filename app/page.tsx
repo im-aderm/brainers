@@ -2235,6 +2235,68 @@ window.__homeI18n = {
 
 
   <!-- ═══════════════════════════════════════════════
+     8. MEDIA & PRESS
+     ═══════════════════════════════════════════════ -->
+  <section class="media-section" style="padding:80px clamp(20px,5vw,60px);background:#F7F6F0;position:relative;">
+    <style>
+      .media-section { background: #F7F6F0; }
+      .media-header { text-align: center; margin-bottom: 60px; }
+      .media-header__eyebrow { display: inline-block; font-family: 'Geist Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--c-azul); margin-bottom: 16px; }
+      .media-header h2 { font-size: clamp(32px, 5vw, 56px); font-weight: 500; margin: 0; color: #1F1C1B; line-height: 1.2; }
+      .media-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
+      .media-card { background: white; border-radius: 12px; overflow: hidden; transition: all 0.3s ease; border: 1px solid rgba(31,28,27,0.08); }
+      .media-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(31,28,27,0.12); border-color: rgba(31,28,27,0.15); }
+      .media-card__image { width: 100%; height: 200px; background: linear-gradient(135deg, #5B3AF5 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px; }
+      .media-card__content { padding: 24px; }
+      .media-card__tag { display: inline-block; background: #EFF4FF; color: #2563EB; font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 4px; margin-bottom: 12px; letter-spacing: -0.33px; }
+      .media-card__title { font-size: 16px; font-weight: 600; color: #1F1C1B; margin: 0 0 8px; line-height: 1.4; }
+      .media-card__excerpt { font-size: 13px; color: #585858; margin: 0 0 16px; line-height: 1.6; }
+      .media-card__source { font-size: 12px; color: var(--c-azul); font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; transition: all 0.3s ease; }
+      .media-card__source:hover { gap: 8px; }
+      .media-card__source i { font-size: 14px; }
+    </style>
+    <div class="media-header">
+      <span class="media-header__eyebrow"><svg width="10" height="12" viewBox="0 0 10 12" fill="var(--c-azul)" style="margin-right:6px;vertical-align:middle;display:inline-block;"><polygon points="0,0 10,6 0,12"/></svg>Recognition</span>
+      <h2>Featured in the News</h2>
+    </div>
+    <div class="media-grid">
+      <div class="media-card">
+        <div class="media-card__image" style="background:linear-gradient(135deg,#5B3AF5,#8B5CF6);">
+          <i class="ph ph-newspaper" style="font-size:48px;"></i>
+        </div>
+        <div class="media-card__content">
+          <span class="media-card__tag">INNOVATION</span>
+          <h3 class="media-card__title">AI-Powered Solutions Transform Nigerian Tech Sector</h3>
+          <p class="media-card__excerpt">Brainers Labs' intelligent products are driving digital transformation across healthcare, education, and enterprise sectors.</p>
+          <a href="#" class="media-card__source">TechCrunch Africa <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="media-card">
+        <div class="media-card__image" style="background:linear-gradient(135deg,#2563EB,#3B82F6);">
+          <i class="ph ph-broadcast" style="font-size:48px;"></i>
+        </div>
+        <div class="media-card__content">
+          <span class="media-card__tag" style="background:#ECFDF5;color:#02A270;">FEATURE</span>
+          <h3 class="media-card__title">Building Africa's Next Generation of Software</h3>
+          <p class="media-card__excerpt">Spotlight on Brainers Labs' mission to scale world-class software engineering across Nigeria and beyond.</p>
+          <a href="#" class="media-card__source">VentureBeat <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="media-card">
+        <div class="media-card__image" style="background:linear-gradient(135deg,#F59E0B,#FBBF24);">
+          <i class="ph ph-award" style="font-size:48px;"></i>
+        </div>
+        <div class="media-card__content">
+          <span class="media-card__tag" style="background:#FEF3C7;color:#D97706;">AWARD</span>
+          <h3 class="media-card__title">Recognition as Leading Software Development Partner</h3>
+          <p class="media-card__excerpt">Named among Africa's top technology firms for innovation and customer excellence in digital transformation.</p>
+          <a href="#" class="media-card__source">Disrupt Africa <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
      9. MIGRATION CTA
      ═══════════════════════════════════════════════ -->
   <section class="migrate-cta">
