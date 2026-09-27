@@ -25,21 +25,21 @@ export default function Page() {
     <div dangerouslySetInnerHTML={{ __html: `<a href="#main" class="skip-nav">Skip to content</a>
   <div class="nav-backdrop"></div>
   <nav>
-    <a href="../index.html" class="nav-logo" style="width: auto; height: 32px;">
-      <img src="../assets/images/logos/brainers/desktop-logo-dark-bg.png" alt="Brainers Labs" class="desktop-logo logo-dark-bg" style="height: 100%;">
-      <img src="../assets/images/logos/brainers/desktop-logo-light-bg.png" alt="Brainers Labs" class="desktop-logo logo-light-bg" style="height: 100%;">
-      <img src="../assets/images/logos/brainers/mobile-logo-dark-bg.png" alt="Brainers Labs" class="mobile-logo logo-dark-bg" style="height: 100%;">
-      <img src="../assets/images/logos/brainers/mobile-logo-light-bg.png" alt="Brainers Labs" class="mobile-logo logo-light-bg" style="height: 100%;">
+    <a href="/" class="nav-logo" style="width: auto; height: 32px;">
+      <img src="/assets/images/logos/brainers/desktop-logo-dark-bg.png" alt="Brainers Labs" class="desktop-logo logo-dark-bg" style="height: 100%;">
+      <img src="/assets/images/logos/brainers/desktop-logo-light-bg.png" alt="Brainers Labs" class="desktop-logo logo-light-bg" style="height: 100%;">
+      <img src="/assets/images/logos/brainers/mobile-logo-dark-bg.png" alt="Brainers Labs" class="mobile-logo logo-dark-bg" style="height: 100%;">
+      <img src="/assets/images/logos/brainers/mobile-logo-light-bg.png" alt="Brainers Labs" class="mobile-logo logo-light-bg" style="height: 100%;">
     </a>
     <div class="nav-links">
-      <div class="nav-item"><a href="../company/about-us/index.html">About Us</a></div>
-      <div class="nav-item"><a href="../company/services/index.html">Services</a></div>
+      <div class="nav-item"><a href="/company/about-us">About Us</a></div>
+      <div class="nav-item"><a href="/company/services">Services</a></div>
       <div class="nav-item">
         <a style="cursor:default;">Products <i class="ph ph-caret-down" style="font-size:12px;margin-left:5px;opacity:.5;"></i></a>
         <div class="mega-menu mega-menu-cols">
-          <a href="https://arvix.brainerslabs.com" class="mega-module">
+          <a href="https://breno.brainerslabs.com" class="mega-module">
             <div class="mega-module__content">
-              <strong>Arvix</strong>
+              <strong>Breno AI</strong>
               <span>An intelligence company brain and operating system for real-time reasoning and decision automation.</span>
               <span class="mega-module__link">Learn more  &rarr;</span>
             </div>
@@ -66,7 +66,7 @@ export default function Page() {
           </a>
           <a href="#" class="mega-module">
             <div class="mega-module__content">
-              <strong>iSch</strong>
+              <strong>iSchool</strong>
               <span>Smart school management &mdash; biometric attendance, academic tracking, and parent-teacher connection.</span>
               <span class="mega-module__link">Learn more  &rarr;</span>
             </div>
@@ -85,15 +85,15 @@ export default function Page() {
     </button>
   </nav>
   <div class="mobile-menu">
-    <a href="../company/about-us/index.html">About Us</a>
-    <a href="../company/services/index.html">Services</a>
+    <a href="/company/about-us">About Us</a>
+    <a href="/company/services">Services</a>
     <div class="mobile-dropdown">
       <button class="mobile-dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">Products</button>
       <div class="mobile-dropdown-content">
-        <a href="https://arvix.brainerslabs.com">Arvix<span>An intelligence company brain and operating system.</span></a>
+        <a href="https://breno.brainerslabs.com">Breno AI<span>An intelligence company brain and operating system.</span></a>
         <a href="#">Momenta<span>Event memory infrastructure for institutional knowledge.</span></a>
         <a href="#">iHel<span>Smart hospital management system.</span></a>
-        <a href="#">iSch<span>Smart school management system.</span></a>
+        <a href="#">iSchool<span>Smart school management system.</span></a>
       </div>
     </div>
     <div class="menu-ctas">
@@ -415,32 +415,32 @@ export default function Page() {
     <div class="footer-top">
     <div class="footer-grid">
       <div class="footer-col footer-col--brand">
-        <a href="../index.html" class="footer-brand">
+        <a href="/" class="footer-brand">
         <span class="footer-logo-container" style="display: inline-block; height: 32px; margin-bottom: 12px;">
-          <img src="../assets/images/logos/brainers/desktop-logo-dark-bg.png" alt="Brainers Labs" class="footer-logo logo-dark-bg" style="height: 100%;">
-          <img src="../assets/images/logos/brainers/desktop-logo-light-bg.png" alt="Brainers Labs" class="footer-logo logo-light-bg" style="height: 100%;">
+          <img src="/assets/images/logos/brainers/desktop-logo-dark-bg.png" alt="Brainers Labs" class="footer-logo logo-dark-bg" style="height: 100%;">
+          <img src="/assets/images/logos/brainers/desktop-logo-light-bg.png" alt="Brainers Labs" class="footer-logo logo-light-bg" style="height: 100%;">
         </span>
       </a>
         <p class="footer-desc">Custom software, AI, and cloud engineering for organizations across all 36 states of Nigeria.</p>
       </div>
       <div class="footer-col">
         <span class="footer-col__title">Products</span>
-        <a href="#">Arvix</a>
+        <a href="https://breno.brainerslabs.com">Breno AI</a>
         <a href="#">Momenta</a>
         <a href="#">iHel</a>
-        <a href="#">iSch</a>
+        <a href="#">iSchool</a>
       </div>
       <div class="footer-col">
         <span class="footer-col__title">Company</span>
-        <a href="../company/about-us/index.html">About us</a>
-        <a href="../company/careers/index.html">Careers</a>
+        <a href="/company/about-us">About us</a>
+        <a href="/company/careers">Careers</a>
         <a href="/">Contact</a>
       </div>
     </div>
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copyright">© 2026 Brainers Labs · <a href="../terms/index.html" style="color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:0.6;">Terms of Service</a> · <a href="../privacy/index.html" style="color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:0.6;">Privacy Policy</a></span>
+      <span class="footer-copyright">© 2026 Brainers Labs · <a href="/terms" style="color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:0.6;">Terms of Service</a> · <a href="/privacy" style="color:inherit;text-decoration:underline;text-underline-offset:2px;opacity:0.6;">Privacy Policy</a></span>
       <span class="footer-social">
           <a href="https://www.instagram.com/brainerslabs/" aria-label="Instagram" target="_blank" rel="noopener nofollow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg></a>
           <a href="https://www.facebook.com/brainerslabs" aria-label="Facebook" target="_blank" rel="noopener nofollow"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
@@ -451,9 +451,9 @@ export default function Page() {
     </div>
   </footer>
 
-  <script src="../assets/js/nav.js"></script>
+  <script src="/js/nav.js"></script>
 
-      <script src="/js/contact-form.js" defer></script>
+      <script src="/js/brainers-form-handler.js" defer></script>
 
     ` }} /></>
   );
