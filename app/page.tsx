@@ -59,7 +59,7 @@ export default function Home() {
         <div class="mega-menu mega-menu-cols">
           <a href="https://arvix.brainerslabs.com" class="mega-module">
             <div class="mega-module__content">
-              <strong>Arvix</strong>
+              <strong>Breno AI</strong>
               <span>An intelligence company brain and operating system for real-time reasoning and decision automation.</span>
               <span class="mega-module__link">Learn more  &rarr;</span>
             </div>
@@ -86,7 +86,7 @@ export default function Home() {
           </a>
           <a href="#" class="mega-module">
             <div class="mega-module__content">
-              <strong>iSch</strong>
+              <strong>iSchool</strong>
               <span>Smart school management &mdash; biometric attendance, academic tracking, and parent-teacher connection.</span>
               <span class="mega-module__link">Learn more  &rarr;</span>
             </div>
@@ -111,10 +111,10 @@ export default function Home() {
     <div class="mobile-dropdown">
       <button class="mobile-dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">Products</button>
       <div class="mobile-dropdown-content">
-        <a href="https://arvix.brainerslabs.com">Arvix<span>An intelligence company brain and operating system.</span></a>
+        <a href="https://breno.brainerslabs.com">Breno AI<span>An intelligence company brain and operating system.</span></a>
         <a href="#">Momenta<span>Event memory infrastructure for institutional knowledge.</span></a>
         <a href="#">iHel<span>Smart hospital management system.</span></a>
-        <a href="#">iSch<span>Smart school management system.</span></a>
+        <a href="#">iSch<span>Intelligent school management with integrated LMS.</span></a>
       </div>
     </div>
     <div class="menu-ctas">
@@ -217,25 +217,21 @@ window.__homeI18n = {
       <div class="logo-strip__track">
         <!-- Set 1 -->
         <img src="assets/trusted-by/archyclouds.webp" alt="Archy Clouds">
-        <img src="assets/trusted-by/arvix.png" alt="Arvix">
         <img src="assets/trusted-by/awas.webp" alt="Atlantic Ways">
         <img src="assets/trusted-by/basaer.webp" alt="Basaer">
         
         <!-- Set 2 -->
         <img src="assets/trusted-by/archyclouds.webp" alt="Archy Clouds">
-        <img src="assets/trusted-by/arvix.png" alt="Arvix">
         <img src="assets/trusted-by/awas.webp" alt="Atlantic Ways">
         <img src="assets/trusted-by/basaer.webp" alt="Basaer">
 
         <!-- Set 3 -->
         <img src="assets/trusted-by/archyclouds.webp" alt="Archy Clouds">
-        <img src="assets/trusted-by/arvix.png" alt="Arvix">
         <img src="assets/trusted-by/awas.webp" alt="Atlantic Ways">
         <img src="assets/trusted-by/basaer.webp" alt="Basaer">
 
         <!-- Set 4 -->
         <img src="assets/trusted-by/archyclouds.webp" alt="Archy Clouds">
-        <img src="assets/trusted-by/arvix.png" alt="Arvix">
         <img src="assets/trusted-by/awas.webp" alt="Atlantic Ways">
         <img src="assets/trusted-by/basaer.webp" alt="Basaer">
 
@@ -414,7 +410,7 @@ window.__homeI18n = {
             <div class="ask-field__bar">
               <div class="ask-field__inner">
                 <i class="ph ph-sparkle ask-field__icon"></i>
-                <span class="ask-field__text">Ask Arvix...</span>
+                <span class="ask-field__text">Ask Breno...</span>
                 <span class="ask-field__cursor"></span>
               </div>
               <div class="ask-field__border"></div>
@@ -515,7 +511,7 @@ window.__homeI18n = {
         </div>
         <div class="why-card__image">
           <div class="price-chart" id="price-chart">
-            <h4 class="price-chart__title">Click on the metrics to compare scale:</h4>
+            <h4 class="price-chart__title"></h4>
             <div class="price-chart__rows">
               <div class="price-chart__row price-chart__row--us active" data-price="94" data-name="Success Rate">
                 <span class="price-chart__label">Success Rate</span>
@@ -528,7 +524,7 @@ window.__homeI18n = {
               <div class="price-chart__row" data-price="850" data-name="Trainees by Invitation">
                 <span class="price-chart__label">Trainees by Invitation</span>
                 <div class="price-chart__bar-wrap">
-                  <div class="price-chart__bar" style="--bar-w:75%; --bar-color:linear-gradient(90deg,#CAF0A0,#39B54A);">
+                  <div class="price-chart__bar" style="--bar-w:Typical; --bar-color:linear-gradient(90deg,#CAF0A0,#39B54A);">
                     <span class="price-chart__price">850+</span>
                   </div>
                 </div>
@@ -600,17 +596,17 @@ window.__homeI18n = {
         <use href="#suitePath3" />
       </svg>
 
-      <!-- Card 1: Arvix -->
+      <!-- Card 1: Breno AI -->
       <div class="suite-card-wrap">
       <div class="suite-card">
         <div class="suite-card__icon">
           <i class="ph ph-brain"></i>
         </div>
-        <h3 class="suite-card__title">Arvix</h3>
+        <h3 class="suite-card__title">Breno AI</h3>
         <p>An intelligence company brain and operating system. Process dynamic data models, execute real-time reasoning workflows, and monitor active sync nodes.</p>
         <div style="margin-top:8px;margin-bottom:16px;">
           <a href="javascript:void(0)" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
-            Explore Arvix <i class="ph ph-arrow-right" style="font-size:14px;"></i>
+            Explore Breno AI <i class="ph ph-arrow-right" style="font-size:14px;"></i>
           </a>
         </div>
         <div class="suite-card__visual">
@@ -639,7 +635,7 @@ window.__homeI18n = {
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
                   <div style="display:flex;gap:6px;align-items:center;background:rgba(31,28,27,0.04);padding:4px 8px;border-radius:6px;">
-                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">98.2%</p>
+                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">High</p>
                     <p style="font-weight:400;font-size:11px;letter-spacing:-0.33px;color:#585858;margin:0;">Accuracy</p>
                   </div>
                   <div style="display:flex;gap:8px;align-items:center;">
@@ -649,7 +645,7 @@ window.__homeI18n = {
                     </div>
                     <div style="display:flex;gap:3px;align-items:center;background:rgba(31,28,27,0.04);padding:3px 6px;border-radius:4px;">
                       <i class="ph ph-cpu" style="font-size:12px;color:#585858;"></i>
-                      <p style="font-size:11px;font-weight:500;color:#1f1c1b;margin:0;">45ms</p>
+                      <p style="font-size:11px;font-weight:500;color:#1f1c1b;margin:0;">Fast</p>
                     </div>
                   </div>
                 </div>
@@ -677,7 +673,7 @@ window.__homeI18n = {
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
                   <div style="display:flex;gap:6px;align-items:center;background:rgba(31,28,27,0.04);padding:4px 8px;border-radius:6px;">
-                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">3.4s</p>
+                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">Responsive</p>
                     <p style="font-weight:400;font-size:11px;letter-spacing:-0.33px;color:#585858;margin:0;">Latency</p>
                   </div>
                   <div style="display:flex;gap:8px;align-items:center;">
@@ -792,7 +788,7 @@ window.__homeI18n = {
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
                   <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Event #4822</p>
-                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Product Launch: Arvix v1</p>
+                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Product Launch Event</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:#EFF4FF;padding:4px 8px 4px 6px;border-radius:6px;">
                   <div style="width:8px;height:8px;border-radius:50%;background:#2563EB;flex-shrink:0;"></div>
@@ -862,11 +858,11 @@ window.__homeI18n = {
         <div class="suite-card__icon">
           <i class="ph ph-student"></i>
         </div>
-        <h3 class="suite-card__title">iSch</h3>
+        <h3 class="suite-card__title">iSchool</h3>
         <p>A smart school management system. Automate attendance with biometric check-ins, track academic progress, and connect parents, teachers, and administration.</p>
         <div style="margin-top:8px;margin-bottom:16px;">
           <a href="javascript:void(0)" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
-            Explore iSch <i class="ph ph-arrow-right" style="font-size:14px;"></i>
+            Explore iSchool <i class="ph ph-arrow-right" style="font-size:14px;"></i>
           </a>
         </div>
         <div class="suite-card__visual">
@@ -878,7 +874,7 @@ window.__homeI18n = {
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
                   <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Biometric Check-in</p>
-                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Grade 10 — Room A201</p>
+                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Class</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:#ECFDF5;padding:4px 8px 4px 6px;border-radius:6px;">
                   <div style="width:8px;height:8px;border-radius:50%;background:#02A270;flex-shrink:0;"></div>
@@ -890,7 +886,7 @@ window.__homeI18n = {
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Teacher:</p>
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="width:24px;height:24px;border-radius:50%;background:#5B3AF5;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">S</div>
-                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Ms. Sana Okafor</p>
+                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Teacher</p>
                   </div>
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
@@ -901,7 +897,7 @@ window.__homeI18n = {
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="display:flex;gap:4px;align-items:center;">
                       <p style="font-size:11px;color:#585858;margin:0;">Rate:</p>
-                      <p style="font-size:11px;font-weight:600;color:#02A270;margin:0;">93.3%</p>
+                      <p style="font-size:11px;font-weight:600;color:#02A270;margin:0;">High</p>
                     </div>
                     <div style="display:flex;gap:3px;align-items:center;background:rgba(31,28,27,0.04);padding:3px 6px;border-radius:4px;">
                       <i class="ph ph-fingerprint" style="font-size:12px;color:#585858;"></i>
@@ -928,12 +924,12 @@ window.__homeI18n = {
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Teacher:</p>
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="width:24px;height:24px;border-radius:50%;background:#5B3AF5;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">K</div>
-                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Mr. Kofi Mensah</p>
+                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Teacher</p>
                   </div>
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
                   <div style="display:flex;gap:6px;align-items:center;background:rgba(31,28,27,0.04);padding:4px 8px;border-radius:6px;">
-                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">78.4</p>
+                    <p style="font-weight:600;font-size:14px;letter-spacing:-0.42px;color:#1f1c1b;margin:0;">85</p>
                     <p style="font-weight:400;font-size:11px;letter-spacing:-0.33px;color:#585858;margin:0;">Avg Score</p>
                   </div>
                   <div style="display:flex;gap:8px;align-items:center;">
@@ -943,7 +939,7 @@ window.__homeI18n = {
                     </div>
                     <div style="display:flex;gap:3px;align-items:center;background:rgba(31,28,27,0.04);padding:3px 6px;border-radius:4px;">
                       <i class="ph ph-chart-line-up" style="font-size:12px;color:#585858;"></i>
-                      <p style="font-size:11px;font-weight:500;color:#1f1c1b;margin:0;">+4%</p>
+                      <p style="font-size:11px;font-weight:500;color:#1f1c1b;margin:0;">Trending Up</p>
                     </div>
                   </div>
                 </div>
@@ -954,7 +950,7 @@ window.__homeI18n = {
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
                   <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Biometric Check-in</p>
-                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Grade 10 — Room A201</p>
+                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Class</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:#ECFDF5;padding:4px 8px 4px 6px;border-radius:6px;">
                   <div style="width:8px;height:8px;border-radius:50%;background:#02A270;flex-shrink:0;"></div>
@@ -1001,7 +997,7 @@ window.__homeI18n = {
             <div class="ticket-card">
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
-                  <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Patient #PT-0812</p>
+                  <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Patient ID: Demo</p>
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Emergency — Chest pain</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:#FEF2F2;padding:4px 8px 4px 6px;border-radius:6px;">
@@ -1014,7 +1010,7 @@ window.__homeI18n = {
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Assigned Doctor:</p>
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="width:24px;height:24px;border-radius:50%;background:#DC2626;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">R</div>
-                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Dr. R. Osei-Bonsu</p>
+                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Doctor</p>
                   </div>
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
@@ -1025,7 +1021,7 @@ window.__homeI18n = {
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="display:flex;gap:4px;align-items:center;">
                       <p style="font-size:11px;color:#585858;margin:0;">Bed:</p>
-                      <p style="font-size:11px;font-weight:600;color:#02A270;margin:0;">ER-14</p>
+                      <p style="font-size:11px;font-weight:600;color:#02A270;margin:0;">Bed: Demo</p>
                     </div>
                     <div style="display:flex;gap:3px;align-items:center;background:rgba(31,28,27,0.04);padding:3px 6px;border-radius:4px;">
                       <i class="ph ph-heartbeat" style="font-size:12px;color:#DC2626;"></i>
@@ -1040,7 +1036,7 @@ window.__homeI18n = {
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
                   <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Bed Occupancy</p>
-                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Ward B — General</p>
+                  <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Ward</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:rgba(31,28,27,0.06);padding:4px 8px 4px 6px;border-radius:6px;">
                   <div style="width:8px;height:8px;border-radius:50%;background:#FDBF00;flex-shrink:0;"></div>
@@ -1052,7 +1048,7 @@ window.__homeI18n = {
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Head Nurse:</p>
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="width:24px;height:24px;border-radius:50%;background:#5B3AF5;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">A</div>
-                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Amara Diallo, RN</p>
+                    <p style="font-weight:400;line-height:1.4;color:#1f1c1b;font-size:12px;letter-spacing:-0.36px;margin:0;">Sample Nurse</p>
                   </div>
                 </div>
                 <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
@@ -1063,7 +1059,7 @@ window.__homeI18n = {
                   <div style="display:flex;gap:8px;align-items:center;">
                     <div style="display:flex;gap:4px;align-items:center;">
                       <p style="font-size:11px;color:#585858;margin:0;">Rate:</p>
-                      <p style="font-size:11px;font-weight:600;color:#FDBF00;margin:0;">75%</p>
+                      <p style="font-size:11px;font-weight:600;color:#FDBF00;margin:0;">Typical</p>
                     </div>
                     <div style="display:flex;gap:3px;align-items:center;background:rgba(31,28,27,0.04);padding:3px 6px;border-radius:4px;">
                       <i class="ph ph-bed" style="font-size:12px;color:#585858;"></i>
@@ -1077,7 +1073,7 @@ window.__homeI18n = {
             <div class="ticket-card" aria-hidden="true">
               <div style="display:flex;align-items:flex-start;justify-content:space-between;padding:15px 15px 0;">
                 <div style="display:flex;flex-direction:column;gap:2px;width:60%;">
-                  <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Patient #PT-0812</p>
+                  <p style="font-weight:500;line-height:1.5;color:#1f1c1b;font-size:16px;letter-spacing:-0.48px;margin:0;">Patient ID: Demo</p>
                   <p style="font-weight:400;line-height:1.4;color:#585858;font-size:12px;letter-spacing:-0.36px;margin:0;">Emergency — Chest pain</p>
                 </div>
                 <div style="display:flex;gap:6px;align-items:center;background:#FEF2F2;padding:4px 8px 4px 6px;border-radius:6px;">
@@ -2286,10 +2282,10 @@ window.__homeI18n = {
       </div>
       <div class="footer-col">
         <span class="footer-col__title">Products</span>
-        <a href="#">Arvix</a>
+        <a href="https://breno.brainerslabs.com">Breno AI</a>
         <a href="#">Momenta</a>
         <a href="#">iHel</a>
-        <a href="#">iSch</a>
+        <a href="#">iSchool</a>
       </div>
       <div class="footer-col">
         <span class="footer-col__title">Company</span>
