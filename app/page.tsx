@@ -605,7 +605,7 @@ window.__homeI18n = {
         <h3 class="suite-card__title">Breno AI <span style="display:inline-block;background:#5B3AF5;color:#fff;font-size:11px;font-weight:600;padding:4px 8px;border-radius:4px;margin-left:8px;letter-spacing:-0.33px;">PRIVATE BETA</span></h3>
         <p>An intelligence company brain and operating system. Process dynamic data models, execute real-time reasoning workflows, and monitor active sync nodes.</p>
         <div style="margin-top:8px;margin-bottom:16px;">
-          <a href="javascript:void(0)" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
+          <a href="https://breno.brainerslabs.com" style="color:var(--c-azul);font-size:14px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">
             Explore Breno AI <i class="ph ph-arrow-right" style="font-size:14px;"></i>
           </a>
         </div>
