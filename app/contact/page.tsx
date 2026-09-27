@@ -293,7 +293,7 @@ export default function Page() {
     </div>
 
     <div class="contact-form-card" id="contact-form-card">
-      <p class="contact-note" id="contact-note">Our online form isn't connected to email delivery yet — after submitting, please also send your message to <a href="mailto:info@brainerslabs.com">info@brainerslabs.com</a> directly so we don't miss it.</p>
+      <p class="contact-note" id="contact-note" style="display:none;">Thank you for contacting us. We'll review your message and get back to you shortly.</p>
 
       <div class="contact-success">
         <div class="icon">

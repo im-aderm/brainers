@@ -55,8 +55,8 @@
     const note = document.getElementById('contact-note');
 
     if (form && note) {
-      // Hide the "not connected" note since we now have a handler
-      note.classList.remove('visible');
+      // Form is fully functional - keep note hidden
+      note.style.display = 'none';
     }
   }
 })();
