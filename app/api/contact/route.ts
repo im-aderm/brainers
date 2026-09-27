@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || 'noreply@brainerslabs.com';
 const TO_EMAIL = process.env.CONTACT_TO_EMAIL || 'info@brainerslabs.com';
@@ -39,9 +39,9 @@ export async function POST(request: NextRequest) {
 
     // Try to send email with Resend
     let emailSent = false;
-    if (process.env.RESEND_API_KEY) {
+    if (resend && process.env.RESEND_API_KEY) {
       try {
-        const result = await resend.emails.send({
+        const result = await resend!.emails.send({
           from: FROM_EMAIL,
           to: TO_EMAIL,
           replyTo: email,
