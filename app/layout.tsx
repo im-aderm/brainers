@@ -48,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="facebook-domain-verification" content="qztns7hoqctgnpy225ac3h3j36j1qc" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="256x256" />
         <link rel="apple-touch-icon" href="/favicon.png" />
